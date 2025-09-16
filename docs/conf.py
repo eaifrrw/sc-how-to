@@ -27,12 +27,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-
-extensions = [
-    "myst_parser",
-]
-
 # Allow .md files
+extensions = ["myst_parser"]
+html_theme = "sphinx_rtd_theme"
 source_suffix = {
     ".rst": "restructuredtext",
     ".md": "markdown",
