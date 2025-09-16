@@ -1,21 +1,21 @@
-Remote login to the cluster
+# Remote login to the cluster
 
-## Requirements
+# Requirements
 - SSH client software  
   - Linux/OSX: built-in `ssh` command  
   - Windows: [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)  
 - Valid login credentials for `quevedo.eaifr.org`
 
-## Steps
+# Steps
 
-### Linux / macOS
+# Linux / macOS
 ```bash
 ssh your_login_name@quevedo.eaifr.org
 On first connection, type yes to accept the host key.
 
 Enter your password when prompted.
 ```
-### Windows
+# Windows
 
 ```bash
 Download putty.exe

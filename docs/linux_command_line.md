@@ -1,11 +1,9 @@
-Linux Command Line
-
 # 3.0 Using the Linux command-line
 
-## Requirements
+# Requirements
 - Access to the HPC or a Linux computer
 
-## Common commands
+# Common commands
 - Change password: `passwd`  
 - Make directory: `mkdir`  
 - Change directory: `cd`  

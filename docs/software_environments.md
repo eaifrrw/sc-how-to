@@ -1,7 +1,7 @@
 Software Environments
-## 5.0 Listing available software environments
+# 5.0 Listing available software environments
 
-## Steps
+# Steps
 ```bash
 module avail                   # list environments
 module load {name[/version]}   # load environment

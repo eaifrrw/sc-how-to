@@ -2,13 +2,13 @@
 
 This guide provides step-by-step instructions for submitting a parallel job on an SGE-grid type cluster using a sample job script.
 
-## Prerequisites
+# Prerequisites
 
 - Access to an SGE-grid cluster.
 - Necessary permissions to submit jobs.
 - Required modules (e.g., OpenMPI) installed on the cluster.
 
-## Job Submission Script
+# Job Submission Script
 
 Below is a sample job submission script. Save this script as `parallel_job.sh` or any name of your choice.
 
@@ -26,11 +26,11 @@ module load openmpi
 mpirun -mca btl_openib_allow_ib 1 -np 64 ./matmulmpi.x
 ```
 
-## User Guide: Running the Sample Job Script
+# User Guide: Running the Sample Job Script
 
 This section provides a detailed explanation of the job submission script and its components.
 
-### Script Breakdown
+# Script Breakdown
 
 1. **Shebang Line**: 
     ```bash
@@ -81,11 +81,11 @@ This section provides a detailed explanation of the job submission script and it
     ```
     This command executes the MPI program `matmulmpi.x` using 64 processes.
 
-### Summary
+# Summary
 
 This job submission script is designed to run a parallel matrix multiplication program using MPI on an SGE-grid cluster. Ensure that all prerequisites are met before submitting the job.
 
-## Running the Job
+# Running the Job
 
 To submit your parallel job, follow these steps:
 
@@ -111,7 +111,7 @@ To submit your parallel job, follow these steps:
 
 5. **Check the output** of your job in the specified output file (`mpi_matmul.txt`) once it has completed.
 
-## Additional Notes
+# Additional Notes
 
 - Ensure that your executable (`matmulmpi.x`) is compiled and available in the same directory as your job script.
 - Adjust the number of processors (`-pe mpi 64`) and runtime (`-l h_rt=24:10:00`) according to your job requirements and cluster policies.

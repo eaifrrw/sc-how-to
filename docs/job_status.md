@@ -1,7 +1,7 @@
-## Requirements
+# Requirements
 Valid Credentials and Jobs
 
-## Checking the Status of an SGE-Grid Cluster and Jobs
+# Checking the Status of an SGE-Grid Cluster and Jobs
 
 To check the status of an SGE-Grid cluster and the jobs you have submitted, follow these steps:
 

@@ -1,0 +1,110 @@
+# Transferring Data to and from the Quevedo Cluster
+
+# Introduction
+This guide provides instructions for transferring data to and from the Quevedo cluster (quevedo.eaifr.org). It covers both uploading and downloading files using secure methods.
+
+# Prerequisites
+- Access to the Quevedo cluster.
+- SSH client installed on your local machine.
+- Basic knowledge of command line operations.
+
+# Transferring Data to the Quevedo Cluster
+
+# Using SCP (Secure Copy Protocol)
+
+1. **Open your terminal.**
+2. **Use the following command to upload files:**
+
+    ```bash
+    scp /path/to/local/file username@quevedo.eaifr.org:/path/to/remote/directory
+    ```
+
+    Replace `/path/to/local/file` with the path of the file you want to upload, `username` with your Quevedo username, and `/path/to/remote/directory` with the destination directory on the cluster.
+
+3. **Example:**
+
+    ```bash
+    scp ~/Documents/myfile.txt user@quevedo.eaifr.org:/home/user/data/
+    ```
+
+# Using SFTP (Secure File Transfer Protocol)
+
+1. **Open your terminal.**
+2. **Connect to the cluster using SFTP:**
+
+    ```bash
+    sftp username@quevedo.eaifr.org
+    ```
+
+3. **Use the following commands to upload files:**
+
+    - Navigate to the desired remote directory:
+
+      ```bash
+      cd /path/to/remote/directory
+      ```
+
+    - Upload the file:
+
+      ```bash
+      put /path/to/local/file
+      ```
+
+4. **Example:**
+
+    ```bash
+    sftp user@quevedo.eaifr.org
+    cd /home/user/data/
+    put ~/Documents/myfile.txt
+    ```
+
+# Transferring Data from the Quevedo Cluster
+
+# Using SCP
+
+1. **Open your local terminal.**
+2. **Use the following command to download files:**
+
+    ```bash
+    scp username@quevedo.eaifr.org:/path/to/remote/file /path/to/local/directory
+    ```
+
+3. **Example:**
+
+    ```bash
+    scp user@quevedo.eaifr.org:/home/user/data/myfile.txt ~/Downloads/
+    ```
+
+# Using SFTP
+
+1. **Open your terminal.**
+2. **Connect to the cluster using SFTP:**
+
+    ```bash
+    sftp username@quevedo.eaifr.org
+    ```
+
+3. **Use the following commands to download files:**
+
+    - Navigate to the desired remote directory:
+
+      ```bash
+      cd /path/to/remote/directory
+      ```
+
+    - Download the file:
+
+      ```bash
+      get filename
+      ```
+
+4. **Example:**
+
+    ```bash
+    sftp user@quevedo.eaifr.org
+    cd /home/user/data/
+    get myfile.txt
+    ```
+
+# Conclusion
+This guide provides the basic commands needed to transfer files to and from the Quevedo cluster. For more advanced usage, refer to the `man` pages of `scp` and `sftp` for additional options and features.
