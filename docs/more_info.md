@@ -21,7 +21,7 @@ This guide provides step-by-step instructions on how to request an interactive n
 3. **Request an Interactive Session**
     - Use the `qlogin` command with the `-pe` option to request an interactive session. You can specify the resources you need (e.g., number of slots, time limit) as follows:
       ```bash
-      qsub -pe mpi 64 -l mem_free -l h=hostname
+      qlogin -pe mpi 64 -l mem_free -l h=hostname
       ```
     - Replace `4G` with the desired memory and `hostname` with the specific node you want to use (example compute-0-0).
 
