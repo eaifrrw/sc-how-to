@@ -1,15 +1,17 @@
-# Requirements
+# 8.0 Checking the status of a running job
+## 8.0.1 Requirements
 Valid Credentials and Submitted Jobs
 
-# Checking the Status of an SGE-Grid Cluster and Jobs
+## 8.1 Checking the Status of the Cluster and Jobs
 
-To check the status of an SGE-Grid cluster and the jobs you have submitted, follow these steps:
+To check the status of the cluster and the jobs you have submitted, follow these steps:
 
 1. **Check Cluster Status**
     Use the following command to get an overview of the cluster's status:
     ```bash
     qstat -g c
     ```
+    - **Note:** The physical state of the QUEVEDO cluster can be seen [here](https://hpc-eaifr.ictp.it/ganglia/?c=QUEVEDO&m=load_one&r=hour&s=by%20name&hc=4&mc=2).
 
 2. **Check Job Status**
     To view the status of your submitted jobs, use:

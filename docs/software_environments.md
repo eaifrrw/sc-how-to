@@ -1,7 +1,7 @@
-Software Environments
-# Listing available software environments
+# 4.0 Software Environments
+## 4.0.1 Listing available software/libraries
 
-# Steps
+## 4.0.2 Steps
 ```bash
 module avail                   # list environments
 module load {name[/version]}   # load environment

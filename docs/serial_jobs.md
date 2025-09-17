@@ -1,14 +1,14 @@
-# Submitting a Serial Job 
+# 6.0 Submitting a Serial Job 
 
 This guide provides step-by-step instructions on how to submit a serial job to the SGE (Sun Grid Engine) grid cluster.
 
-# Prerequisites
+## 6.0.1 Prerequisites
 
 - Access to the QUEVEDO cluster.
 - A valid user account on the cluster.
 - The job script ready for submission.
 
-# Step 1: Create Your Job Script
+## 6.1.0 Step 1: Create Your Job Script
 
 Create a shell script that contains the commands you want to run. For example, create a file named `my_serial_job.sh`:
 ```c++
@@ -24,7 +24,7 @@ pw.x < input.scf.in > output.scf.out
 ``` 
 
 
-# Step 2: Understanding the Job Script
+## 6.1.1 Step 2: Understanding the Job Script
 
 The job script you created, `my_serial_job.sh`, is a shell script designed to run a job on a cluster using a job scheduler (like Sun Grid Engine). Let's break down the components of the script:
 
@@ -45,12 +45,12 @@ The job script you created, `my_serial_job.sh`, is a shell script designed to ru
 4. **Running the Program**:
    - `pw.x < input.scf.in > output.scf.out`: This line executes the program `pw.x`, redirecting input from `input.scf.in` and output to `output.scf.out`. The `<` operator takes the contents of `input.scf.in` as input for the program, while the `>` operator directs the program's output to `output.scf.out`.
 
-# Summary
+## 6.1.2 Summary
 
 This job script is a crucial component for automating tasks on a computing cluster. By understanding each part of the script, you can customize it to suit your specific computational needs, manage resources effectively, and ensure that your jobs run smoothly. 
 
 
-# Step 2: Submit Your Job Script
+## 6.1.3 Step 2: Submit Your Job Script
 
 Once you have created your job script, you can submit it to the SGE grid cluster using the `qsub` command. Run the following command in your terminal:
 ```c++

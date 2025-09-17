@@ -1,9 +1,9 @@
-# Using the Linux command-line
+# 3.0 Using the Linux command-line
 
-# Requirements
+## 3.1 Requirements
 - Access to the HPC or a Linux computer
 
-# Common commands
+## 3.2 Common commands
 - Change password: `passwd`  
 - Make directory: `mkdir`  
 - Change directory: `cd`  

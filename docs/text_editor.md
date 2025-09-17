@@ -1,9 +1,9 @@
-# Using a text editor (nano)
+# 5.0 Using a text editor (nano)
 
-## Requirements
+## 5.0.1 Requirements
 - Valid credentials for `quevedo.eaifr.org`
 
-## Steps
+## 5.0.2 Steps
 1. Login as described earlier  
 2. Navigate to desired directory  
 3. Open and edit file nano:

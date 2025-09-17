@@ -1,13 +1,13 @@
-# Requesting an Interactive Node on the SGE Cluster
+# 10.0 Requesting an Interactive Node on the SGE Cluster
 
-# Introduction
+## 10.1 Introduction
 This guide provides step-by-step instructions on how to request an interactive node on the Sun Grid Engine (SGE) cluster.
 
-# Prerequisites
+## 10.1.1 Prerequisites
 - Access to the SGE cluster.
 - A valid user account on the cluster.
 
-# Steps to Request an Interactive Node
+## 10.1.2 Steps to Request an Interactive Node
 
 1. **Open a Terminal**
     - Access your terminal application on your local machine or connect to the cluster via SSH.
@@ -39,7 +39,7 @@ This guide provides step-by-step instructions on how to request an interactive n
       exit
       ```
 
-# Graphic Based Applications
+## 10.2 Graphic Based Applications
 
 1. **Open a Terminal**
     - Access your terminal application on your local machine.
@@ -73,5 +73,5 @@ This guide provides step-by-step instructions on how to request an interactive n
 
 
 
-# Further Information
+## 10.3 Further Information
 For further assistance, please refer to the cluster documentation or contact the ICTP-EAIFR  research support team.

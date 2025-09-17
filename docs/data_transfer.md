@@ -1,16 +1,16 @@
-# Transferring Data to and from the Quevedo Cluster
+# 9.0 Transferring Data to and from the Quevedo Cluster
 
-# Introduction
+## 9.1 Introduction
 This guide provides instructions for transferring data to and from the Quevedo cluster (quevedo.eaifr.org). It covers both uploading and downloading files using secure methods.
 
-# Prerequisites
+## 9.2 Prerequisites
 - Access to the Quevedo cluster.
 - SSH client installed on your local machine.
 - Basic knowledge of command line operations.
 
-# Transferring Data to the Quevedo Cluster
+## 9.3 Transferring Data to the Quevedo Cluster
 
-# Using SCP (Secure Copy Protocol)
+## 9.3.1 Using SCP (Secure Copy Protocol)
 
 1. **Open your terminal.**
 2. **Use the following command to upload files:**
@@ -27,7 +27,7 @@ This guide provides instructions for transferring data to and from the Quevedo c
     scp ~/Documents/myfile.txt user@quevedo.eaifr.org:/home/user/data/
     ```
 
-# Using SFTP (Secure File Transfer Protocol)
+## 9.3.2 Using SFTP (Secure File Transfer Protocol)
 
 1. **Open your terminal.**
 2. **Connect to the cluster using SFTP:**
@@ -58,9 +58,9 @@ This guide provides instructions for transferring data to and from the Quevedo c
     put ~/Documents/myfile.txt
     ```
 
-# Transferring Data from the Quevedo Cluster
+## 9.4 Transferring Data from the Quevedo Cluster
 
-# Using SCP
+## 9.4.1 Using SCP
 
 1. **Open your local terminal.**
 2. **Use the following command to download files:**
@@ -75,7 +75,7 @@ This guide provides instructions for transferring data to and from the Quevedo c
     scp user@quevedo.eaifr.org:/home/user/data/myfile.txt ~/Downloads/
     ```
 
-# Using SFTP
+## 9.4.2 Using SFTP
 
 1. **Open your terminal.**
 2. **Connect to the cluster using SFTP:**
@@ -106,5 +106,5 @@ This guide provides instructions for transferring data to and from the Quevedo c
     get myfile.txt
     ```
 
-# Conclusion
+## 9.5 Conclusion
 This guide provides the basic commands needed to transfer files to and from the Quevedo cluster. For more advanced usage, refer to the `man` pages of `scp` and `sftp` for additional options and features.
