@@ -1,5 +1,5 @@
 # Requirements
-Valid Credentials and Jobs
+Valid Credentials and Submitted Jobs
 
 # Checking the Status of an SGE-Grid Cluster and Jobs
 

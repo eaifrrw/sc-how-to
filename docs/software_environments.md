@@ -1,5 +1,5 @@
 Software Environments
-# 5.0 Listing available software environments
+# Listing available software environments
 
 # Steps
 ```bash

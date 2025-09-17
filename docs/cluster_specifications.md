@@ -11,7 +11,7 @@ The HPC cluster supports both **parallel** and **serial** jobs, runs Linux, and 
 
 ---
 
-## 1.1 Scientific software applications
+## Scientific software applications
 
 The HPC cluster supports a wide range of scientific applications. Currently deployed:
 
@@ -27,14 +27,14 @@ The HPC cluster supports a wide range of scientific applications. Currently depl
 
 ---
 
-## 1.2 Requesting access
+##  Requesting access
 
 EAIFR academic staff and students can obtain credentials for accessing the cluster.
 To do this, submit a formal request through your supervisor to hpchelpdesk@eaifr.org.
 
 ---
 
-## 1.3 Using this document
+##  Using this document
 
 - Important items are shown in **bold**.  
 - Values you need to supply are enclosed in `{}`.  
