@@ -1,4 +1,4 @@
-# 10.0 Requesting an Interactive Node on the SGE Cluster
+# 10.0 Requesting an Interactive Node 
 
 ## 10.1 Introduction
 This guide provides step-by-step instructions on how to request an interactive node on the Sun Grid Engine (SGE) cluster.
