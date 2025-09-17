@@ -39,5 +39,39 @@ This guide provides step-by-step instructions on how to request an interactive n
       exit
       ```
 
+# Graphic Based Applications
+
+1. **Open a Terminal**
+    - Access your terminal application on your local machine.
+
+2. **Connect to the Cluster with X11 Forwarding**
+    - Use the `ssh` command with the `-X` option to enable X11 forwarding. Replace `username` and `cluster_address` with your actual username and the address of the cluster (e.g. quevedo.eaifr.org):
+      ```bash
+      ssh -X username@quevedo.eaifr.org
+      ```
+
+3. **Load the Required Modules (if necessary)**
+    - If VMD is not installed by default, load the necessary module:
+      ```bash
+      module load vmd
+      ```
+
+4. **Launch VMD**
+    - Start VMD by typing the following command:
+      ```bash
+      vmd
+      ```
+
+5. **Use VMD for Visualization**
+    - Once VMD is open, you can load your molecular structures and begin your visualization tasks.
+
+6. **End the VMD Session**
+    - To exit VMD, simply close the application window or type:
+      ```bash
+      exit
+      ```
+
+
+
 # Further Information
 For further assistance, please refer to the cluster documentation or contact the ICTP-EAIFR  research support team.

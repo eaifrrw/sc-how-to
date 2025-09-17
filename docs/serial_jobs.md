@@ -1,4 +1,4 @@
-# User Guide: Submitting a Serial Job on the SGE Grid Cluster
+# Submitting a Serial Job 
 
 This guide provides step-by-step instructions on how to submit a serial job to the SGE (Sun Grid Engine) grid cluster.
 

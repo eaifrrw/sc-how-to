@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-ICTP-EAIFR Cluster User Guide documentation
+ICTP-EAIFR Cluster User Guide 
 ===========================================
 
 Add your content using ``reStructuredText`` syntax. See the
