@@ -6,9 +6,9 @@
 ICTP-EAIFR Cluster User Guide 
 ===========================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+.. Add your content using ``reStructuredText`` syntax. See the
+.. `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+.. documentation for details.
 
 
 .. toctree::
@@ -17,12 +17,16 @@ documentation for details.
 
 
    cluster_specifications
-   data_transfer
-   job_status
-   linux_command_line
-   more_info
-   parallel_jobs
    remote_login
-   serial_jobs
+   linux_command_line
    software_environments
    text_editor
+   serial_jobs
+   parallel_jobs
+   job_status
+   data_transfer
+   more_info
+   
+   
+   
+   
