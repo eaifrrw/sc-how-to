@@ -1,6 +1,6 @@
 # 7.0 Submitting a Parallel Job
 
-This guide provides step-by-step instructions for submitting a parallel job on an SGE-grid type cluster using a sample job script.
+This section provides step-by-step instructions for submitting a parallel job on an SGE-grid type cluster using a sample job script.
 
 ## 7.1 Prerequisites
 

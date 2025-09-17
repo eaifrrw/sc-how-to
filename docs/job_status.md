@@ -1,4 +1,4 @@
-# 8.0 Checking the status of a running job
+# 8.0 Cluster/Job Status
 ## 8.0.1 Requirements
 Valid Credentials and Submitted Jobs
 

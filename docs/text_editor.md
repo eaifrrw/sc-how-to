@@ -1,4 +1,4 @@
-# 5.0 Using a text editor (nano)
+# 5.0 Editing Text
 
 ## 5.0.1 Requirements
 - Valid credentials for `quevedo.eaifr.org`

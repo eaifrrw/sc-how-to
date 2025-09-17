@@ -1,4 +1,4 @@
-# 9.0 Transferring Data to and from the Quevedo Cluster
+# 9.0 Transferring Data
 
 ## 9.1 Introduction
 This guide provides instructions for transferring data to and from the Quevedo cluster (quevedo.eaifr.org). It covers both uploading and downloading files using secure methods.

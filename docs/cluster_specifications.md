@@ -1,4 +1,4 @@
-# 1.0 Cluster specifications
+# 1.0 Cluster Specifications
 
 The current hardware specifications of the QUEVEDO HPC cluster include:
 
@@ -11,7 +11,7 @@ The HPC cluster supports both **parallel** and **serial** jobs, runs Linux, and 
 
 ---
 
-## 1.1 Scientific software applications
+## 1.1 Scientific Applications
 
 The HPC cluster supports a wide range of scientific applications. Currently deployed:
 
@@ -27,7 +27,7 @@ The HPC cluster supports a wide range of scientific applications. Currently depl
 
 ---
 
-##  1.2 Requesting access
+##  1.2 Requesting Access
 
 EAIFR academic staff and students can obtain credentials for accessing the cluster.
 To do this, submit a formal request through your supervisor to hpchelpdesk@eaifr.org.

@@ -1,4 +1,4 @@
-# 3.0 Using the Linux command-line
+# 3.0 Linux Commands
 
 ## 3.1 Requirements
 - Access to the HPC or a Linux computer

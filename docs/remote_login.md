@@ -1,4 +1,4 @@
-# 2.0 Remote login to the cluster
+# 2.0 Remote Login
 
 ## 2.1.0 Requirements
 - SSH client software  
