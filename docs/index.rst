@@ -10,12 +10,13 @@
 .. `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 .. documentation for details.
 
-
+QUEVEDO Cluster
+================
+ 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   :caption: QUEVEDO Cluster
-
+   
    cluster_specifications
    remote_login
    linux_command_line
