@@ -14,7 +14,7 @@
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   :caption: QUEVEDO Cluster
 
    cluster_specifications
    remote_login
