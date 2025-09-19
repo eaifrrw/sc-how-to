@@ -27,22 +27,22 @@
    data_transfer
    more_info
 
-   TWAS-1 Cluster
-   ==============
+TWAS-1 Cluster
+==============
 
-   .. toctree::
-      :maxdepth: 2
-      :caption: TWAS-1 Cluster 
-      
-      twas1_specifications
-      twas1_remote_login
-      twas1_linux_command_line
-      twas1_software_environments
-      twas1_text_editor
-      twas1_serial_jobs
-      twas1_parallel_jobs
-      twas1_job_status
-      twas1_data_transfer
-      twas1_more_info
+.. toctree::
+   :maxdepth: 2
+   :caption: TWAS-1 Cluster 
    
-   
+   twas1_specifications
+   twas1_remote_login
+   twas1_linux_command_line
+   twas1_software_environments
+   twas1_text_editor
+   twas1_serial_jobs
+   twas1_parallel_jobs
+   twas1_job_status
+   twas1_data_transfer
+   twas1_more_info
+
+
