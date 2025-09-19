@@ -12,7 +12,7 @@
 
 QUEVEDO Cluster
 ================
- 
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -33,7 +33,7 @@ TWAS-1 Cluster
 
 .. toctree::
    :maxdepth: 2
-   :caption: TWAS-1 Cluster 
+   :caption: Contents: 
    
    twas1_specifications
    twas1_remote_login
