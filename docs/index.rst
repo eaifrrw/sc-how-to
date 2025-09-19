@@ -28,12 +28,10 @@ QUEVEDO Cluster
    data_transfer
    more_info
 
-TWAS-1 Cluster
-==============
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents: 
+   :caption: TWAS-1 Cluster 
    
    twas1_specifications
    twas1_remote_login
