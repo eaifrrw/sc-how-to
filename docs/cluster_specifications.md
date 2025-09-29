@@ -8,7 +8,7 @@ The current hardware specifications of the QUEVEDO HPC cluster include:
 - 40 Gbps High Speed Network (Infiniband) for parallel jobs  
 
 The HPC cluster supports both **parallel** and **serial** jobs, runs Linux, and is accessible remotely via **SSH**.
-
+- **NB:** All computations (Serial and Parallel) MUST be carried out on compute nodes via a job-script. 
 ---
 
 ## 1.1 Scientific Applications
