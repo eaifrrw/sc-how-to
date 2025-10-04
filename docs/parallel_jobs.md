@@ -106,7 +106,7 @@ To submit your parallel job, follow these steps:
 4. **Monitor your job** status with the following command:
 
     ```bash
-    qstat
+    qstat -u $USER
     ```
 
 5. **Check the output** of your job in the specified output file (`mpi_matmul.txt`) once it has completed.
