@@ -110,9 +110,27 @@ To submit your parallel job, follow these steps:
     ```
 
 5. **Check the output** of your job in the specified output file (`mpi_matmul.txt`) once it has completed.
+## 7.7 Quantum Espresso 7.4.1 Users
+```c++
+#!/bin/bash
+#$ -N qe_scf
+#$ -cwd
+#$ -pe mpi 64
+#$ -l h_rt=24:00:00
+#$ -j y
+#$ -o qe_job.txt
 
-## 7.7 Additional Notes
+module load openmpi/openmpi_4.0.5_gnu7.3.1
+module load espresso/7.4.1
+
+mpirun -mca btl_openib_allow_ib 1 -np 64 pw.x < scf.in > scf.out
+
+```
+
+## 7.8 Additional Notes For Compiling and Running in Parallel
 
 - Ensure that your executable (`matmulmpi.x`) is compiled and available in the same directory as your job script.
 - Adjust the number of processors (`-pe mpi 64`) and runtime (`-l h_rt=24:10:00`) according to your job requirements and cluster policies.
+- Ensure that your Makefile is pointing to the correct set of library and include directories. 
+- Use `module show module\_name` to display the paths to the libraries for the modules loaded. (e.g. `module show fftw/3.3.10-gnu11`)
 - For more information on job submission options, refer to the SGE documentation or contact your system administrator.
