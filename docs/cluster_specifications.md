@@ -19,8 +19,7 @@ The HPC cluster supports a wide range of scientific applications. Currently depl
 - CP2K  
 - Quantum Espresso
 - ORCA
-- LAMMPS
-- GROMACS  
+- LAMMPS 
 - R-Statistical Computing Language  
 - SageMath  
 - Anaconda  
