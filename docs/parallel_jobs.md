@@ -110,8 +110,7 @@ To submit your parallel job, follow these steps:
     ```
 
 5. **Check the output** of your job in the specified output file (`mpi_matmul.txt`) once it has completed.
-## 7.7 Quantum Espresso 7.4.1 Users: PROBLEMATIC
-We found a problem with the band-structure computation and this is currently being resolved!!
+## 7.7 Quantum Espresso 7.4.1 Users 
 ```c++
 #!/bin/bash
 #$ -N qe_scf
@@ -121,7 +120,6 @@ We found a problem with the band-structure computation and this is currently bei
 #$ -j y
 #$ -o qe_job.txt
 
-module load openmpi/openmpi_4.0.5_gnu7.3.1
 module load espresso/7.4.1
 
 mpirun -mca btl_openib_allow_ib 1 -np 64 pw.x < scf.in > scf.out
