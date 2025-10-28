@@ -7,6 +7,7 @@ This section provides step-by-step instructions for submitting a parallel job on
 - Access to an SGE-grid cluster.
 - Necessary permissions to submit jobs.
 - Required modules (e.g., OpenMPI) installed on the cluster.
+- Use `module avail` to check available software and libraries.
 
 ## 7.2 Job Submission Script
 
