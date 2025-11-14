@@ -155,7 +155,6 @@ rsync -PravzHS leonardodata:/leonardo_scratch/large/userexternal/<username>/Proj
 | Host key verification failed | Old cached host keys | `ssh-keygen -R login.leonardo.cineca.it` |
 | No such file or directory | Wrong path | Verify directory paths |
 
----
 
 ---
 ## 11.10 Addtional Information
@@ -213,4 +212,3 @@ of your local PC (we suggest using the ~/.ssh folder)
 ```bash
 $ step ssh certificate 'user-email' --provisioner cineca-hpc my_key
 ```
----
