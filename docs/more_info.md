@@ -74,5 +74,6 @@ This guide provides step-by-step instructions on how to request an interactive n
 
 
 ## 10.3 Further Information
-Login to CINECA's HPC Infrastructure can be configured to ease access. See [Section 11](cineca_access.html)
+Login to CINECA's HPC Infrastructure can be configured to ease access. See` :doc:`Section 11 <cineca_access>`
+
 For further assistance, please refer to the cluster documentation or contact the ICTP-EAIFR  research support team.
