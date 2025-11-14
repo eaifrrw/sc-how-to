@@ -103,10 +103,7 @@ Host leonardodata
     Hostname data.leonardo.cineca.it
     IdentityFile ~/.ssh/<username>
 ```
-
----
-
-## 11.7 Transferring Files
+## 11.7 Remote Connection and File Transfer
 
 Authenticate first:
 
@@ -114,12 +111,17 @@ Authenticate first:
 authleonardo
 ```
 
-### Upload (Local → Remote)
+### 11.7.1 Remote SSH LOGIN
+To connect to the Leonardo Supercomputer use the following command:
+```bash
+$ ssh leonardo
+```
+### 11.7.2 Upload (Local → Remote)
 ```bash
 scp -r /path/to/local/dir leonardo:/leonardo_scratch/large/userexternal/<username>/Project/
 ```
 
-### Download (Remote → Local)
+### 11.7.3 Download (Remote → Local)
 ```bash
 scp -r leonardo:/leonardo_scratch/large/userexternal/<username>/Project/ /path/to/local/dir
 ```
@@ -140,7 +142,8 @@ rsync -PravzHS leonardodata:/leonardo_scratch/large/userexternal/<username>/Proj
 | 3 | Add alias | `alias authleonardo="..."` |
 | 4 | Authenticate | `authleonardo` |
 | 5 | Configure SSH | `~/.ssh/config` |
-| 6 | Transfer files | `scp` or `rsync` |
+| 6 | Login | `ssh leonardo` |
+| 7 | Transfer files | `scp` or `rsync` |
 
 ---
 
