@@ -1,10 +1,10 @@
-# Tutorial Guide: Accessing the Leonardo Supercomputer (CINECA)
+# 11.0 Tutorial Guide: Accessing the Leonardo Supercomputer (CINECA)
 
 This guide walks you through the process of setting up secure SSH authentication and file transfer between your local machine and the Leonardo HPC system at CINECA.
 
 ---
 
-## 1. Prerequisites
+## 11.1 Prerequisites
 
 Before starting, make sure:
 - You have an active **CINECA UserDB account**.
@@ -15,7 +15,7 @@ Before starting, make sure:
 
 ---
 
-## 2. Generate Your SSH Key
+## 11.2 Generate Your SSH Key
 
 Create a new SSH key pair named after your CINECA username:
 
@@ -30,7 +30,7 @@ When prompted for a file name, use:
 
 ---
 
-## 3. Start the SSH Agent Automatically
+## 11.3 Start the SSH Agent Automatically
 
 Add this line to your `~/.bashrc` to start the SSH agent automatically:
 
@@ -46,7 +46,7 @@ source ~/.bashrc
 
 ---
 
-## 4. Create an Authentication Alias
+## 11.4 Create an Authentication Alias
 
 Add an alias to your `~/.bashrc` or `~/.bash_aliases` file (replace `<username>` with your actual username):
 
@@ -62,7 +62,7 @@ source ~/.bashrc
 
 ---
 
-## 5. Authenticate with Leonardo
+## 11.5 Authenticate with Leonardo
 
 Run:
 
@@ -76,7 +76,7 @@ When you see “Success,” your SSH certificate has been generated.
 
 ---
 
-## 6. Configure SSH Access
+## 11.6 Configure SSH Access
 
 Edit your SSH configuration file:
 
@@ -106,7 +106,7 @@ Host leonardodata
 
 ---
 
-## 7. Transferring Files
+## 11.7 Transferring Files
 
 Authenticate first:
 
@@ -131,7 +131,7 @@ rsync -PravzHS leonardodata:/leonardo_scratch/large/userexternal/<username>/Proj
 
 ---
 
-## 8. Summary Checklist
+## 11.8 Summary Checklist
 
 | Step | Task | Command |
 |------|------|----------|
@@ -144,7 +144,7 @@ rsync -PravzHS leonardodata:/leonardo_scratch/large/userexternal/<username>/Proj
 
 ---
 
-## 9. Troubleshooting Tips
+## 11.9 Troubleshooting Tips
 
 | Problem | Cause | Solution |
 |----------|--------|----------|
@@ -155,7 +155,7 @@ rsync -PravzHS leonardodata:/leonardo_scratch/large/userexternal/<username>/Proj
 ---
 
 ---
-## 10. Addtional Information
+## 11.10 Addtional Information
 
 ### To Regenerate the certs:
 ```bash
