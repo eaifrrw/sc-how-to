@@ -15,18 +15,21 @@ Before starting, make sure:
 
 ---
 
-## 11.2 Generate Your SSH Key
+## 11.2 Generate Your SSH Key 
 
 Create a new SSH key pair named after your CINECA username:
 
 ```bash
-ssh-keygen -t ecdsa
+ssh-keygen
 ```
 
 When prompted for a file name, use:
 ```
 ~/.ssh/<username>
 ```
+Note that:
+- Only public version of your key (keyfile.pub) should be used anywhere you are required.
+- Ask for help if you have problems with ssh-keys.
 
 ---
 
@@ -130,7 +133,6 @@ scp -r leonardo:/leonardo_scratch/large/userexternal/<username>/Project/ /path/t
 ```bash
 rsync -PravzHS leonardodata:/leonardo_scratch/large/userexternal/<username>/Project/ /path/to/local
 ```
-
 ---
 
 ## 11.8 Summary Checklist
