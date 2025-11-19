@@ -1,6 +1,6 @@
 # 11.0 Tutorial Guide: Accessing the Leonardo Supercomputer (CINECA)
 
-This guide walks you through the process of setting up secure SSH authentication and file transfer between your local machine and the Leonardo HPC system at CINECA.
+This guide walks you through the process of setting up secure SSH authentication and file transfer between your local machine and the Leonardo HPC system at CINECA. This guide doesn't suggest you may not encounter implementation challenges. Contact Research Support for assistance.
 
 ---
 
