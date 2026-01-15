@@ -4,7 +4,7 @@
 
 The **TWAS-1 Cluster** is a tightly controlled, high-performance computing (HPC) resource tailored for compute-intensive scientific research, data analytics, and numerical modeling. The system is deployed as part of the **QUEVEDO Cluster** configuration and is optimized to exploit modern Intel server-class processor features.
 
-See [TWAS-1 Ganglia Dashboard] by Grid -> --Choose a Source (Click on this and select `twas1`).
+See [TWAS-1 Ganglia Dashboard] by `Grid` -> `--Choose a Source` (Click on `Choose a Source` and select `twas1`).
 
 [TWAS-1 Ganglia Dashboard]: http://154.68.126.3/ganglia/?r=hour&cs=&ce=&m=load_one&s=by+name&c=twas1&tab=m&vn=&hide-hf=false
  
