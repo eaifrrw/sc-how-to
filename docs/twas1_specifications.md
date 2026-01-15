@@ -10,6 +10,8 @@ See [TWAS-1 Ganglia Dashboard] by `Grid` -> `--Choose a Source` (Click on `Choos
  
 
 ---
+ ## Access and Resource Governance
+ Access to the TWAS-1 Cluster is **highly restricted**, ensuring predictable performance and efficient allocation to approved research projects. Regular maintenance and data hygiene policies are enforced to preserve system integrity and long-term reliability. Unauthorized access will suggests a cybersecurity breach.
 
 ## Compute Architecture
 
@@ -88,8 +90,4 @@ Thanks to its instruction-rich CPUs and balanced memory design, the TWAS-1 Clust
 - Virtualized or containerized scientific environments
 
 ---
-
-## Access and Resource Governance
-
-Access to the TWAS-1 Cluster is **highly restricted**, ensuring predictable performance and efficient allocation to approved research projects. Regular maintenance and data hygiene policies are enforced to preserve system integrity and long-term reliability.
 
