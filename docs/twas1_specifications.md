@@ -86,8 +86,15 @@ Thanks to its instruction-rich CPUs and balanced memory design, the TWAS-1 Clust
 - Large-scale numerical simulations (climate, physics, engineering)
 - Machine learning inference and vectorized analytics
 - High-throughput data processing and statistical modeling
-- Cryptography-aware and security-sensitive research workloads
 - Virtualized or containerized scientific environments
 
 ---
 
+## Notable Scientific Computing Applications
+
+- QUANTUM ESPRESSO
+- GROMACS
+- LAMMPS
+- CP2K
+- ORCA
+- FALL3D
