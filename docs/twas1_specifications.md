@@ -6,7 +6,8 @@ The **TWAS-1 Cluster** is a tightly controlled, high-performance computing (HPC)
 
 [Ganglia Dashboard] [ganglia].
 
-[ganglia]: http://154.68.126.3/ganglia/?r=hour&cs=&ce=&c=twas1&h=&tab=m&vn=&hide-hf=false&m=load_one&sh=1&z=small&hc=4&host_regex=&max_graphs=0&s=by+name 
+[ganglia]: http://154.68.126.3/ganglia/?r=hour&cs=&ce=&m=load_one&s=by+name&c=twas1&tab=m&vn=&hide-hf=false
+ 
 
 ---
 
