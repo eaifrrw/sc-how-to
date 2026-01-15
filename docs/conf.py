@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ICTP-EAIFR Cluster User Guide'
-copyright = '2025, Edward Ntim Gasu, Ph.D'
-author = 'Edward Ntim Gasu, Ph.D'
+copyright = '2026, Edward Ntim Gasu, Ph.D, M.HPC'
+author = 'Edward Ntim Gasu, Ph.D, M.HPC'
 release = '0'
 
 # -- General configuration ---------------------------------------------------
