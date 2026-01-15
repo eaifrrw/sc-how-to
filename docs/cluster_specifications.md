@@ -1,6 +1,6 @@
 # 1.0 Cluster Specifications
 
-The current hardware specifications of the [QUEVEDO] HPC cluster include:
+The current hardware specifications of the [QUEVEDO HPC cluster]include:
 
 - 316 computation cores (with HT) – two Intel(R) Xeon(R) CPU E5-2630 @ 2.20GHz  
 - 256 GB RAM (DDR4 @ 2400MT/s)  
@@ -10,7 +10,7 @@ The current hardware specifications of the [QUEVEDO] HPC cluster include:
 The HPC cluster supports both **parallel** and **serial** jobs, runs Linux, and is accessible remotely via **SSH**.
 - **NB:** All computations (Serial and Parallel) MUST be carried out on compute nodes via a job-script. 
 
-[QUEVEDO]: https://hpc-eaifr.ictp.it/ganglia/?c=QUEVEDO&m=load_one&r=hour&s=by%20name&hc=4&mc=2
+[QUEVEDO HPC cluster]: https://hpc-eaifr.ictp.it/ganglia/?c=QUEVEDO&m=load_one&r=hour&s=by%20name&hc=4&mc=2
 ---
 
 ## 1.1 Scientific Applications
